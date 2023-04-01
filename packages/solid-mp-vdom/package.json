@@ -1,0 +1,21 @@
+{
+  "name": "solid-mp-vdom",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Huang-Huang Bao",
+    "email": "i@eh5.me"
+  },
+  "type": "module",
+  "exports": {
+    "import": "./dist/index.js"
+  },
+  "module": "dist/index.js",
+  "typings": "./dist",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc",
+    "watch": "tsc -w"
+  }
+}

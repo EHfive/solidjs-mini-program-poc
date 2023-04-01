@@ -1,0 +1,49 @@
+{
+  "name": "solid-mini-program",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Huang-Huang Bao",
+    "email": "i@eh5.me"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "webpack",
+    "test": "tsc"
+  },
+  "browserslist": [
+    "ios >= 9",
+    "android >= 5"
+  ],
+  "dependencies": {
+    "@tarojs/runtime": "^3.6.2",
+    "@tarojs/shared": "^3.6.2",
+    "bulma": "^0.9.4",
+    "core-js": "^3.29.1",
+    "solid-js": "^1.7.0",
+    "solid-mp-vdom": "workspace:^",
+    "solid-mp-vdom-renderer": "workspace:^"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-typescript": "^7.21.4",
+    "@tarojs/helper": "^3.6.2",
+    "@tarojs/plugin-platform-weapp": "^3.6.2",
+    "@types/wechat-miniprogram": "^3.4.1",
+    "babel-loader": "^9.1.2",
+    "babel-preset-solid": "^1.7.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "mini-css-extract-plugin": "^2.7.5",
+    "postcss": "^8.4.21",
+    "postcss-loader": "^7.1.0",
+    "postcss-preset-env": "^8.3.0",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1"
+  }
+}

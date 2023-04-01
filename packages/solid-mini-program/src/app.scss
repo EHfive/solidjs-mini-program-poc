@@ -1,0 +1,26 @@
+$solidjs: #4483c1;
+$tarojs: #3578e5;
+$bulma: #00c4a7;
+
+
+.color-bulma {
+  color: $bulma !important;
+}
+
+.color-solidjs {
+  color: $solidjs !important;
+}
+
+.bg-color-solidjs {
+  color: #fff !important;
+  background-color: $solidjs !important;
+}
+
+.color-tarojs {
+  color: $tarojs !important;
+}
+
+.bg-color-tarojs {
+  color: #fff !important;
+  background-color: $tarojs !important;
+}

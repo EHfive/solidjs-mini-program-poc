@@ -1,0 +1,30 @@
+{
+  "name": "solid-mp-vdom-renderer",
+  "version": "1.0.0",
+  "private": true,
+  "keywords": [],
+  "license": "MIT",
+  "author": {
+    "name": "Huang-Huang Bao",
+    "email": "i@eh5.me"
+  },
+  "type": "module",
+  "exports": {
+    "import": "./dist/index.js"
+  },
+  "module": "dist/index.js",
+  "typings": "./dist",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "solid-js": "^1.7.0",
+    "solid-mp-vdom": "workspace:^"
+  },
+  "peerDependencies": {
+    "solid-js": "^1.7.0",
+    "solid-mp-vdom": "workspace:^1.0.0"
+  }
+}

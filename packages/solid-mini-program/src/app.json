@@ -1,0 +1,16 @@
+{
+  "debug": true,
+  "pages": [
+    "pages/index/index",
+    "pages/l1-dynamic-template/index",
+    "pages/l2-vdom-to-template-data/index",
+    "pages/l3-0-solid-on-vdom/index",
+    "pages/l3-1-solid-on-taro-runtime/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "SolidJS Mini-Program POC"
+  }
+}

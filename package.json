@@ -1,0 +1,12 @@
+{
+  "name": "solidjs-mini-program-poc",
+  "version": "1.0.0",
+  "private": true,
+  "keywords": [],
+  "license": "MIT",
+  "author": {
+    "name": "Huang-Huang Bao",
+    "email": "i@eh5.me"
+  },
+  "type": "module"
+}
